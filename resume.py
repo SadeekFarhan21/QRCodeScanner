@@ -1,6 +1,6 @@
 import segno
 from PIL import Image, ImageDraw, ImageFont
-qrcode = segno.make_qr("https://sadeekfarhan21.github.io/assets/FarhanSadeekResume.pdf").save('resume.png', scale = 10, border = 5, dark = 'black')
+qrcode = segno.make_qr("https://drive.google.com/file/d/17qReiGPle_6aNEzgGy_SxiTu-sbEk5eP/view").save('resume.png', scale = 10, border = 5, dark = 'black')
 
 
 # Open the generated QR code image
